@@ -1,0 +1,15 @@
+{
+  "name": "GIGA•TENANT•UNBOUND",
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [3000, 8787],
+  "postCreateCommand": "bash scripts/init.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}

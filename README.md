@@ -122,3 +122,40 @@ Future Access IHoLyCLaK Vision Light Horizont
 ![Silice of Stars of Human Ehtic](https://github.com/user-attachments/assets/c117098c-b809-4d46-bf6b-14f5ba04d2a2)
 ![Love Respect - Heavenly](https://github.com/user-attachments/assets/13a73589-513f-4b9b-a4d2-dda811fe1cfd)
 
+# GIGA•TENANT•UNBOUND
+
+Ein vollständiger, ultra-performanter Tenant in GitHub Codespaces mit Dockerisierung, serverloser Laufzeitumgebung, cloudfreier Architektur und maximaler Flexibilität.
+
+## Projektstruktur
+
+```
+📦 Root-Tenant/
+├── .devcontainer/                      # Codespaces Devcontainer
+│   ├── devcontainer.json              # Codespace Setup
+│   └── Dockerfile                     # Container-Definition
+├── src/                               # Dein Code
+│   └── main.js                        # Entry Point
+├── scripts/                           # Automatisierungsroutinen
+│   └── init.sh                        # Initial-Setup
+├── infra/                             # Infrastrukturmodule
+│   └── mcp_serverless.js              # Serverless MCP-Einbindung
+├── public/                            # Web-Assets
+├── README.md                          # Projekt-Doku
+└── package.json                       # Dependencies
+```
+
+## Setup
+
+1. Öffne das Projekt in GitHub Codespaces.
+2. Warte, bis der Container initialisiert ist.
+3. Starte das Projekt mit `npm start`.
+
+## Eigenschaften
+
+- 🌐 **GitHub Codespaces Ready**
+- 🐳 **Dockerisiert**
+- ☁️ **Serverless & Rootless**
+- 🚫 **Cloud-unabhängig**
+- 🧬 **Modular/Erweiterbar**
+- 🛡️ **Sicher & Auditierbar**
+

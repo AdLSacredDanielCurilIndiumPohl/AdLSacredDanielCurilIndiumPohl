@@ -1,0 +1,5 @@
+redis
+pandas
+pyarrow
+jwt
+click
